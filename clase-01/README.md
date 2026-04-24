@@ -50,3 +50,9 @@ git commit -m "mensaje descriptivo"
 git log # versión larga
 git log --oneline # versión corta
 ```
+
+## Como ver diferencias entre el workding directory y el local repo
+
+```sh
+git diff
+```
