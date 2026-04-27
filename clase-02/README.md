@@ -86,8 +86,3 @@ git merge feature/ramas
 
 * GitHub Desktop <https://desktop.github.com/download/>
 * GitKraken <https://www.gitkraken.com>
-
-
-
-
-
