@@ -32,3 +32,33 @@ git branch -r
 ```sh
 git branch -a
 ```
+
+## Otre manera de hacer un commit 
+Para agregar mas información sobre lo que se hizo dentro de ese commit (A partir de la tercera línea)
+
+1. Muevo los archivos al staging area
+
+```sh
+git add <nombre/archivo>
+```
+
+2. Hago un commit
+
+```sh
+git commit # Eso abre el nano/vim/vsc para que escribamos el mensaje
+```
+
+3. Una vez escrito el mensaje para confirmar
+
+Ctrl + O + Enter (guardar) | Ctrl + X
+
+## Creando una rama (Creando una bifurcación)
+
+```sh
+git branch feature/ramas # Crea una rama
+git switch feature/ramas # Me muevo a la rama que indico
+# segunda alternativa
+git switch -c feature/ramas # Crear una rama y moverse a esa rama
+```
+
+
