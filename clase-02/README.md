@@ -55,10 +55,17 @@ Ctrl + O + Enter (guardar) | Ctrl + X
 ## Creando una rama (Creando una bifurcación)
 
 ```sh
+# primera alternativa
 git branch feature/ramas # Crea una rama
 git switch feature/ramas # Me muevo a la rama que indico
 # segunda alternativa
 git switch -c feature/ramas # Crear una rama y moverse a esa rama
 ```
 
+## Como saber la diferencia entre 2 ramas
 
+```sh
+git diff <nombre-rama> 
+# En main y quiero ver la diferencia entre main y feature/ramas
+git diff feature/ramas
+```
