@@ -76,3 +76,9 @@ git diff feature/ramas
 ```sh
 git switch main
 ```
+
+
+## Herramientas visuales para trabajar con GIT
+
+* GitHub Desktop <https://desktop.github.com/download/>
+* GitKraken <https://www.gitkraken.com>
