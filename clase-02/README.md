@@ -75,10 +75,19 @@ git diff feature/ramas
 
 ```sh
 git switch main
+git merge feature/ramas
 ```
 
+* Fast/fordward: El mejor de los mundos. La fusión fue hecha automaticamente por GIT. Sin conflicto.
+* Tercera Vía: Bueno mundo. La fusión la hace también git automaticamente. Sin conflicto.
+* Conflicto: Sucede cuando en las diferentes ramas hay cambios en las mismas lineas de los mismos archivos.
 
 ## Herramientas visuales para trabajar con GIT
 
 * GitHub Desktop <https://desktop.github.com/download/>
 * GitKraken <https://www.gitkraken.com>
+
+
+
+
+
