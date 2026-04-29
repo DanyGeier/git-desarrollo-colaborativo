@@ -60,3 +60,12 @@ En este caso si hago un resets de tipo de soft los cambios que están dentro del
 ```sh
 git reset --soft <numero-hash>
 ```
+
+## Reset Mixed (Default)
+En este caso si hago un resets de tipo mixed (default) los cambios que están dentro del commits pasan al working directory
+
+```sh
+git reset --mixed <numero-hash>
+git reset <numero-hash>
+```
+
