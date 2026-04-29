@@ -50,3 +50,13 @@ git config --global alias.s "status --short"
 git config --global alias.c "commit -m"
 git config --global alias.ll "log --oneline --decorate --all --graph"
 ```
+
+# Git Resets
+Es una forma de borrar commits, tengo 3 tipo de resets
+
+## Resets Softs
+En este caso si hago un resets de tipo de soft los cambios que están dentro del commits pasan a la área de staging area
+
+```sh
+git reset --soft <numero-hash>
+```
