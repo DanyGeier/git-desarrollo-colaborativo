@@ -69,3 +69,9 @@ git reset --mixed <numero-hash>
 git reset <numero-hash>
 ```
 
+## Resets Hard (Destructivo)
+En este caso si hago un resets de tipo hard los cambios que están dentro del commits se pierden los cambios
+
+```sh
+git reset --hard <numero-hash>
+```
